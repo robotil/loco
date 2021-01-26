@@ -53,9 +53,6 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MessageGeneration">
-      <HintPath>..\Plugins\MessageGeneration.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Plugins\Newtonsoft.Json.dll</HintPath>
@@ -91,6 +88,7 @@
     <Compile Include="RosConnector.cs" />
     <Compile Include="Publisher\RosPublisher.cs" />
     <Compile Include="Interfaces\ISubscriber.cs" />
+    <Compile Include="Subscriber\HeartbeatSubscriber.cs" />
     <Compile Include="Subscriber\RosSubscriber.cs" />
   </ItemGroup>
   <ItemGroup>

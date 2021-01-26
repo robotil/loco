@@ -5,15 +5,15 @@ using System.Threading.Tasks;
 
 namespace RosTest
 {
-    public abstract class RosSubscriber<T> :  Message where T : Message , ISubscriber
+    public abstract class RosSubscriber<T> :  Message where T : Message //, ISubscriber
     {
-        public string Topic;
-        public float TimeStep;
+        virtual protected string Topic { get; set; }
+        virtual protected float TimeStep { get; set; }
 
         private readonly int SecondsTimeout = 1;
         private readonly ICommunicator rosConnector;
 
-        public RosSubscriber(ICommunicator rosConnector)
+        protected RosSubscriber(ICommunicator rosConnector)
         {
             new Task(Subscribe).Start();
             this.rosConnector = rosConnector;
