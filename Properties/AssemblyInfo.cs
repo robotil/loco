@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RosTest")]
+[assembly: AssemblyTitle("RosBridgeClientTest")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RosTest")]
+[assembly: AssemblyProduct("RosBridgeClientTest")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9eb1b19e-6f3b-40f5-b6fe-6800352a8ada")]
+[assembly: Guid("6f89afe2-388e-4e90-9973-edff693a1399")]
 
 // Version information for an assembly consists of the following four values:
 //
